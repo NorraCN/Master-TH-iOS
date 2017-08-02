@@ -1,0 +1,68 @@
+"login" = "登录";
+"input_username" = "请输入用户名";
+"input_password" = "请输入密码";
+"input_validate_code" = "请输入验证码";
+
+"unkown" = "未知";
+
+"no_data" = "无数据";
+
+"temperature" = "温度";
+"humidity" = "湿度";
+"humidity_low"="湿度过低";
+"humidity_high"="湿度过高";
+"humidity_normal"="湿度正常";
+
+"temperature_low"="温度过低";
+"temperature_high"="温度过高";
+"temperature_normal"="温度正常";
+
+"alert_set"="警报开关";
+"left_power"="剩余电量";
+"temperature_normal_range"="正常温度范围";
+"humidity_normal_range"="正常湿度范围";
+
+"my_device"="我的设备";
+"menu"="菜单";
+"confirm"="确认";
+"cancel"="取消";
+"login_out"="退出登录";
+"refresh"="刷新";
+"refresh_suc"="刷新成功";
+
+"login_fail"="登录失败";
+"get_code_fail"="请求验证码失败，稍后再试";
+"login_state_expired"="登录信息已过期，请重新登录";
+"fail_net"="请求失败，稍后再试";
+
+"ungroup"="未分组";
+"sharegroup" = "共享组";
+
+"historyRecord" = "历史记录";
+"time" = "时间";
+
+"select_start_time" = "请选择开始时间";
+"select_end_time" = "请选择结束时间";
+
+"select_start_end" = "开始时间不能晚于结束时间";
+
+"search_data" = "查询到数据";
+
+"app_name"="诺朗遥感";
+
+"about_content"="一款集温湿度数据采集，加密传输，云端存储，数据分析，实时监控为一体的高科技产品";
+
+"about"="关于";
+"Not_set"="未设置";
+
+"temperatureListShow" = "温度";
+"humidityListShow" = "湿度";
+
+"noMoreStuff" = "没有更多了";
+"pullUpToRefresh" = "上拉刷新";
+"pullDownToRefresh" = "下拉刷新";
+"releaseToRefresh" = "松开立即刷新";
+"refreshing" = "正在刷新...";
+"device_name" = "设备名称";
+"incorrectUserOrPass" = "用户名或密码错误\n请重试";
+"batteryLow" = "电量低" ;

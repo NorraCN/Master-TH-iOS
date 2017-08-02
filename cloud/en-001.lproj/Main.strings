@@ -1,0 +1,84 @@
+
+/* Class = "UIButton"; normalTitle = "取消"; ObjectID = "1Wa-WO-zx0"; */
+"1Wa-WO-zx0.normalTitle" = "取消";
+
+/* Class = "UITextField"; placeholder = "验证码"; ObjectID = "35d-ck-TcV"; */
+"35d-ck-TcV.placeholder" = "验证码";
+
+/* Class = "UILabel"; text = "日期"; ObjectID = "4cw-vU-FrK"; */
+"4cw-vU-FrK.text" = "日期";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "6Ih-1c-0KI"; */
+"6Ih-1c-0KI.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "刷新验证码"; ObjectID = "7F0-Sx-twv"; */
+"7F0-Sx-twv.normalTitle" = "刷新验证码";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "CQ2-dz-Nq8"; */
+"CQ2-dz-Nq8.text" = "--";
+
+/* Class = "UILabel"; text = "温度正常"; ObjectID = "Cnb-Va-Rdr"; */
+"Cnb-Va-Rdr.text" = "温度正常";
+
+/* Class = "UIButton"; normalTitle = "点击选择结束时间"; ObjectID = "GOz-De-A9y"; */
+"GOz-De-A9y.normalTitle" = "点击选择结束时间";
+
+/* Class = "UILabel"; text = "温度"; ObjectID = "Glj-ep-BXj"; */
+"Glj-ep-BXj.text" = "温度";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "IrP-eM-kak"; */
+"IrP-eM-kak.text" = "--";
+
+/* Class = "UILabel"; text = "时间"; ObjectID = "Ixr-Jw-0N1"; */
+"Ixr-Jw-0N1.text" = "时间";
+
+/* Class = "UILabel"; text = "湿度"; ObjectID = "Jhl-ba-bmR"; */
+"Jhl-ba-bmR.text" = "湿度";
+
+/* Class = "UIButton"; normalTitle = "查询"; ObjectID = "Kre-Ki-7SU"; */
+"Kre-Ki-7SU.normalTitle" = "查询";
+
+/* Class = "UILabel"; text = "2015-10-20 23:20"; ObjectID = "LOf-fX-MZt"; */
+"LOf-fX-MZt.text" = "2015-10-20 23:20";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "Ncj-ro-dN9"; */
+"Ncj-ro-dN9.text" = "--";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "Ors-jR-Tbk"; */
+"Ors-jR-Tbk.normalTitle" = "确定";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "P7Z-e5-fZ6"; */
+"P7Z-e5-fZ6.text" = "--";
+
+/* Class = "UITextField"; placeholder = "用户名"; ObjectID = "QxI-w0-2nu"; */
+"QxI-w0-2nu.placeholder" = "用户名";
+
+/* Class = "UILabel"; text = "请选择查询时间的范围"; ObjectID = "f3m-nv-kL6"; */
+"f3m-nv-kL6.text" = "请选择查询时间的范围";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "fWM-ZF-ZVv"; */
+"fWM-ZF-ZVv.text" = "--";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "fyr-Cf-Q1j"; */
+"fyr-Cf-Q1j.text" = "--";
+
+/* Class = "UIButton"; normalTitle = "确认"; ObjectID = "hbd-Gb-l0A"; */
+"hbd-Gb-l0A.normalTitle" = "确认";
+
+/* Class = "UILabel"; text = "温度正常"; ObjectID = "lTe-Dd-ncU"; */
+"lTe-Dd-ncU.text" = "温度正常";
+
+/* Class = "UITextField"; placeholder = "密码"; ObjectID = "n89-Zd-5JN"; */
+"n89-Zd-5JN.placeholder" = "密码";
+
+/* Class = "UIButton"; normalTitle = "查看历史数据"; ObjectID = "olt-z0-MvO"; */
+"olt-z0-MvO.normalTitle" = "查看历史数据";
+
+/* Class = "UIButton"; normalTitle = "点击选择开始时间"; ObjectID = "qid-b3-J8c"; */
+"qid-b3-J8c.normalTitle" = "点击选择开始时间";
+
+/* Class = "UILabel"; text = "15-22"; ObjectID = "xoz-1z-kxX"; */
+"xoz-1z-kxX.text" = "15-22";
+
+/* Class = "UILabel"; text = "--"; ObjectID = "yub-at-fod"; */
+"yub-at-fod.text" = "--";

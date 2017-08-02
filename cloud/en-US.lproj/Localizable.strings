@@ -1,0 +1,68 @@
+//NSLocalizedString(@"key", nil)
+
+"login"="Login";
+"input_username"="Please enter the user name";
+"input_password"="Please enter the password";
+"input_validate_code"="Please enter the verification code";
+
+"unkown"="？？";
+
+"no_data"="No Data";
+
+"temperature" = "temperature";
+"humidity" = "humidity";
+
+"humidity_low"="Humidity is too low";
+"humidity_high"="Humidity is too high";
+"humidity_normal"="Normal Humidity";
+
+"temperature_low"="Temperature is too low";
+"temperature_high"="Temperature is too high";
+"temperature_normal"="Normal temperature";
+
+"alert_set"="Alarm Switch";
+"left_power"="Battery Percentage";
+"temperature_normal_range"="Normal temperature range";
+"humidity_normal_range"="Normal humidity range";
+
+"my_device"="My Device";
+"menu"="Menu";
+"confirm"="OK";
+"cancel"="Cancel";
+"login_out"="Logout";
+"refresh"="Refresh";
+"refresh_suc"="Refresh success!";
+
+"login_fail"="Login fail";
+"get_code_fail"="Get code fail!";
+"login_state_expired"="Login information has expired, please re login";
+"fail_net"="fail";
+
+"ungroup"="unGroup";
+"sharegroup" = "Shared";
+
+"historyRecord" = "View Data History";
+"time" = "time";
+
+"select_start_time" = "Please select start time！";
+"select_end_time" = "Please select end time！";
+
+"select_start_end" = "start time can't later than end time!";
+
+"search_data" = "search with data";
+
+"app_name"="NorraSensor";
+"about_content"="Through our cloud service, NorraSensor allows you to access temperature and humidity information reported by numbers of remote sensors all over the globe.";
+"about"="About";
+"Not_set"="not set";
+"temperatureListShow" = "T";
+"humidityListShow" = "H";
+
+"noMoreStuff" = "No more stuff";
+"pullUpToRefresh" = "Pull to Refresh";
+"pullDownToRefresh" = "Pull to Refresh";
+"releaseToRefresh" = "Release to Refresh";
+"refreshing" = "Refreshing...";
+"device_name" = "Device";
+"incorrectUserOrPass" = "Incorrect username or password\nPlease try again";
+"batteryLow" = "Battery is LOW" ;
