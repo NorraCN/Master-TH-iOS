@@ -40,6 +40,8 @@
  */
 - (void)getDeviceList{
     [[self.netWorking getDeviceList] subscribeNext:^(id respose) {
+        DebugLog(@"urlPath = %@",respose);  
+
         NSNumber *result = respose[@"result"];
         if (result) {   // result field exist in the response
             NSInteger errorCode = [result integerValue];
@@ -50,24 +52,20 @@
                 if (ArrayNotEmpty(ungroup)) {
                     NSMutableArray *changeUngroup = [NSMutableArray array];
                     for(NSDictionary *dic in ungroup){
-                        DataListModel *deviceModel = [MTLJSONAdapter modelOfClass:[DataListModel class]
-                                                               fromJSONDictionary:dic
-                                                                            error:nil];
-                        [changeUngroup addObject:deviceModel];
+
+                        [changeUngroup addObject:dic];
                     }
-                    NSDictionary *ungroupDic = @{@"devices":changeUngroup,@"name":NSLocalizedString(@"ungroup", nil)};
+                    NSDictionary *ungroupDic = @{@"devices":ungroup,@"name":NSLocalizedString(@"ungroup", nil)};
                     [groupArray addObject:ungroupDic];
                 }
                 NSArray *shareArray = respose[@"shared"];
                 if (ArrayNotEmpty(shareArray)) {
                     NSMutableArray *changeShareArray = [NSMutableArray array];
                     for (NSDictionary *dic in shareArray) {
-                        DataListModel *deviceModel = [MTLJSONAdapter modelOfClass:[DataListModel class]
-                                                               fromJSONDictionary:dic
-                                                                            error:nil];
-                        [changeShareArray addObject:deviceModel];
+
+                        [changeShareArray addObject:dic];
                     }
-                    NSDictionary *shareDic = @{@"devices":changeShareArray,@"name":NSLocalizedString(@"sharegroup", nil)};
+                    NSDictionary *shareDic = @{@"devices":shareArray,@"name":NSLocalizedString(@"sharegroup", nil)};
                     [groupArray addObject:shareDic];
                 }
                 
@@ -77,17 +75,12 @@
                     NSArray *gArray = groupsDic[@"devices"];
                     NSMutableArray *changeArray = [NSMutableArray array];
                     for (NSDictionary *dic in gArray) {
-                        DataListModel *deviceModel = [MTLJSONAdapter modelOfClass:[DataListModel class]
-                                                               fromJSONDictionary:dic
-                                                                            error:nil];
-                        [changeArray addObject:deviceModel];
+                        [changeArray addObject:dic];
                     }
                     [changeGroupsArray addObject:@{@"devices":changeArray,@"name":groupsDic[@"name"]}];
                 }
                 if (ArrayNotEmpty(changeGroupsArray)) {
                     [groupArray addObjectsFromArray:changeGroupsArray];
-
-
                 }
 
                 if (ArrayNotEmpty(groupArray)) {
